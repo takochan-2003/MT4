@@ -132,3 +132,9 @@ Vector3 Transform(const Vector3& vector, const Matrix4x4& matrix);
 Matrix4x4 MakeRotateAxisAngle(const Vector3& axis, float angel);
 
 void MatrixScreenPrintf(int x, int y, const Matrix4x4& matrix, const char* label);
+
+Vector3 VectorMultiply(float sclar, const Vector3& v);
+
+Vector3 Cross(const Vector3& v1, const Vector3& v2);
+
+Matrix4x4 DerectionToDerection(const Vector3& from, const Vector3& to);
